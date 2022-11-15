@@ -20,6 +20,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Reeconstruir la BD si en dado caso ha sido borrada, Solo ejecutar una vez por fa xd
+```
+http://localhost:3000/api/seed
+```
+
 
 ## Stack usado
 * MongoDB
