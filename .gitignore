@@ -3,6 +3,8 @@
 /node_modules
 
 /mongo
+yarn.lock
+
 
 # Logs
 logs
