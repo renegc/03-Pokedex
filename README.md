@@ -20,7 +20,16 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reeconstruir la BD si en dado caso ha sido borrada, Solo ejecutar una vez por fa xd
+5. Clonar el archivo __.env.template__ y renombrar la copia a a __.env__
+
+6. llenar las variables de entorno definidasd en el __.env__
+
+7. ejecutar la aplicacion en dev:
+```
+yarn start:dev
+```
+
+8. Reeconstruir la BD si en dado caso ha sido borrada, Solo ejecutar una vez por fa xd
 ```
 http://localhost:3000/api/seed
 ```
