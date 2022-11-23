@@ -39,9 +39,18 @@ http://localhost:3000/api/seed
 * MongoDB
 * Nest
 
-#Notas 
+# Notas 
 keroku redeploy sin cambios:
 ```
 git commit --allow-empty -m "tigger heroku deploy"
 git push heroku <master|main>
+```
+
+# production build
+1. crear el archivo ``` .env ```
+2. llenar las variables de entorno de produccion
+3. Crear la nueva imagen
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+
 ```
